@@ -1,0 +1,50 @@
+body {
+    color: gray;
+}
+
+#ball {
+    display: flex;
+    width: 800px;
+    height: 800px;
+    border-radius: 50%;
+    color: black;
+    background-color: black;
+    margin-left: 30%;
+    margin-top: 4%;
+}
+
+#window {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: rgb(36, 10, 36);
+    margin-left: 30%;
+    margin-top: 30%;    
+}
+
+.triangle:after {
+    position:absolute;
+    content:"";
+    width: 0;
+    height: 0;
+    margin-top: 80px;
+    margin-left: 45px;
+    border-left: 110px solid transparent;
+    border-right: 110px solid transparent;
+    border-bottom: 110px solid purple;
+}
+    
+.triangle:before {
+    position:absolute;
+    content:"";
+    width: 0;
+    height: 0;
+    border-left: 130px solid transparent;
+    border-right: 130px solid transparent;
+    border-bottom: 130px solid rgb(36, 10, 36);
+}
+
+button {
+    margin-left: 25%;
+}
